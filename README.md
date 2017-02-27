@@ -1,2 +1,0 @@
-# GLOBE
-Website

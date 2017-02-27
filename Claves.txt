@@ -1,0 +1,8 @@
+BASE DE DASTOS
+Nombre base:	xqvickco_db.globe
+Usuario:	xqvickco_globeus
+Contraseña:	QhI+wUVIF$Je
+
+ADMINISTRADOR WORDPRESS
+Usuario:	globen2017
+Clave:		vJuHE$57u2!!J9QsN2

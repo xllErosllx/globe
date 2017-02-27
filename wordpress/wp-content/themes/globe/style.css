@@ -1,0 +1,385 @@
+/*
+Theme Name: Globe
+Theme URL:  
+Descripcion: Hoting Service
+Version: 1
+Author: Johan Osman
+Autor URL: direccion web del autor
+*/
+
+
+/* Generales */
+.center{
+	text-align: center;
+}
+.alignleft{
+	text-align: left;
+}
+.alignright{
+	text-align: right;
+}
+
+
+
+/* MENU */
+.cabecera{
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 1px 4px rgba(0,0,0,.5)
+}
+.navbar{
+    margin-bottom: 0px;
+}
+.navbar-default {
+	background: #f0f0f0;
+	background: -webkit-linear-gradient(#ffffff, #f0f0f0);
+	background: -o-linear-gradient(#ffffff, #f0f0f0);
+	background: -moz-linear-gradient(#ffffff, #f0f0f0);
+	background: linear-gradient(#ffffff, #f0f0f0);
+}
+.navbar-default .navbar-nav>li>a{
+	color: #333;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #1889c1;
+}
+.navbar-default .navbar-nav>.active>a{
+	color: #1889c1;
+}
+.cabecera>.navbar-default .navbar-nav>.active>a,
+.cabecera>.navbar-default .navbar-nav>.active>a:focus,
+.cabecera>.navbar-default .navbar-nav>.active>a:hover{
+	background: none;
+	color: #1889c1;
+}
+.cabecera>.navbar-default .navbar-nav>.open>a,
+.cabecera>.navbar-default .navbar-nav>.open>a:focus,
+.cabecera>.navbar-default .navbar-nav>.open>a:hover{
+	background:none;
+}
+.cabecera>.navbar-default .navbar-nav>.open>a,
+.cabecera>.navbar-default .navbar-nav>.open>a:focus,
+.cabecera>.navbar-default .navbar-nav>.open>a:hover{
+	color: #1889c1;
+}
+.navbar-brand{
+	height: auto;
+}
+.navbar-toggle{
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+@media (min-width: 768px){
+	.navbar {
+   		border-radius: 0px;
+	}
+	.navbar-header>a>img[src]{
+		background-image: url();
+	}
+	.navbar-nav>li>a {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.navbar-right .dropdown-left{
+		right: auto;
+   		left: 0;
+	}
+}
+
+/* SUB-MENU */
+.dropdown-menu{
+	background-color: #f0f0f0;
+	border: none;
+	border-radius: 0px;
+}
+.dropdown-menu>li{
+	background-color: #fff;
+}
+.dropdown-menu>li>a{
+	padding: 10px 20px;
+	border-bottom: solid 1px #f0f0f0;
+}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover{
+	background-color: #1889c1;
+	color: #fff;
+}
+
+/* SLIDER */
+.slider{
+	height: auto;
+}
+.slider .slider-item{
+	min-height: 500px;
+	color: #fff;
+	padding: 40px 0;
+}
+.item-01{
+	background-image: url('assets/img/fondo-slider-01.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slider-container .slider-titulo{
+	font-size: 55px;
+	margin-top: 10px;
+}
+.slider-container .slider-subtitulo{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+.slider-container .list-group-item{
+	background: none;
+	border: none;
+	font-size: 16px;
+	padding-left: 0;
+}
+.slider-container .list-group-item .tab-num{
+	background-color: #fff;
+	display: inline-block;
+	color: #25aae2;
+	text-align: center;
+	font-size: 12px;
+	padding: 4px;
+	margin-right: 10px;
+}
+.controllers>span{
+	display: inline-block;
+	position: relative;
+	width: 39px;
+	height: 46px;
+	cursor: pointer;
+	margin-top: -270px;
+}
+.controllers>span.slick-prev{
+	background-image: url('assets/img/point-prev.png');
+}
+.controllers>span.slick-next{
+	background-image: url('assets/img/point-next.png');
+}
+@media (max-width: 768px){
+	.slider-container .slider-item .container {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+/* PLANES */
+.planes{
+	background-color: #fff;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.plan-caja{
+	border: solid 1px #ddd;
+	padding: 0;
+    margin: 15px 0;
+}
+.plan-hosting{
+	background: #2e2e2f;
+	padding: 10px 0;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+}
+.costo-hosting{
+    font-weight: bold;
+    text-align: center;
+    background-image: url('assets/img/fonfo-btn-planes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 15px 0;
+}
+.costo-hosting > small{
+	color: #fff;
+	font-size: 12px;
+}
+.lista-detalle{
+	border-bottom-right-radius: 0px !important;;
+    border-bottom-left-radius: 0px !important;
+    border-left: 0px;
+    border-right: 0px;
+    padding-left: 30px;
+	padding-right: 30px;
+	color: #888;
+}
+.lista-detalle>span{
+	padding-right: 10px;
+}
+.boton-hosting{
+	text-align: center;
+    padding-bottom: 20px;
+}
+.boton-hosting{
+	text-align: center;
+    padding-bottom: 20px;
+}
+.boton-hosting > .btn-black{
+	color: #fff;
+    background-color: #2e2e2f;
+    border-color: #222;
+}
+.boton-hosting > .btn-black:hover{
+	color: #fff;
+    background-color: #1889c1;
+    border-color: #1889c1;
+}
+.plan-activo > .plan-hosting,
+.plan-activo > .boton-hosting > .btn-black{
+	background: #1889c1;
+	border-color: #1889c1;
+}
+.plan-activo > .costo-hosting{
+    background-image: url('assets/img/fonfo-btn-planes-activo.jpg');
+}
+
+/* SERVICIOS */
+.servicio{
+	background-color: #1889c1; 
+}
+.servicio > .container{
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.servicio-caja{
+	background-color: #fff;
+	padding: 20px 30px;
+	margin: 15px 0;
+}
+.servicio-caja  .servicio-icono{
+	background: #eee;
+    display: inline-block;
+}
+.servicio-caja  .servicio-icono  span{
+	font-size: 40PX;
+    padding: 20px;
+    color: #333;
+}
+.servicio-caja  .servicio-titulo{
+	color: #333;
+	font-weight: bold;
+}
+.servicio-caja  .servicio-contenido{
+	margin-bottom: 0px;
+}
+.ser-activo{
+	background-color: #289cd6;
+}
+.ser-activo  .servicio-icono{
+	background-color: #43b2e9;
+}
+.ser-activo  .servicio-icono > span,
+.ser-activo  .servicio-titulo,
+.ser-activo  .servicio-contenido{
+	color: #fff;
+}
+
+@media (max-width: 991px){
+	.servicio-caja{
+	    text-align: center;
+	}
+}
+
+
+/* CARACTERISTICAS */
+.page-header{
+	border: 0px;
+}
+.caracteristicas{
+	margin-bottom: 40px;
+}
+.caract-nav-ul>.nav-item>a{
+	background-color: #1889c1;
+	color: #fff;
+	border: 0px;
+	border-top: 1px solid #1889c1;
+	border-bottom: 1px solid #1889c1;
+	border-radius: 0px
+}
+.caract-nav-ul>li>a:hover{
+	border-color: #289cd6 #289cd6 #289cd6;
+	background-color: #289cd6;
+}
+.caract-nav-ul>li>a>span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+	padding: 2px;
+	margin-right: 10px;
+}
+.caract-nav-ul>li.active>a,
+.caract-nav-ul>li.active>a:focus,
+.caract-nav-ul>li.active>a:hover{
+	background-color: #eee;
+	border: 0px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	border-radius: 0px
+}
+.caract-nav-ul{
+	border-bottom: 0px;
+}
+.caracteristicas-info{
+	background-color: #eee;
+	padding: 20px 35px;
+	
+}
+.caracteristicas-caja{
+	display: inline-block;
+	width: 100%;
+}
+.caracteristicas-img{
+	background-color: #999;
+	width: 190px;
+	height: 200px;
+	margin-right: 25px;
+	margin-bottom: 15px;
+}
+.caracteristicas-texto{
+	color: #555;
+	font-size: 12px;
+	line-height: 1.5;
+}
+@media (max-width: 768px){
+	.nav-tabs>li{
+		width: 100%;
+	}
+}
+
+
+
+/* NOTICIAS */
+.noticias{
+	background-color: #40b0e7;
+}
+.noticia-caja{
+	padding: 35px 0;
+	color: #fff;
+}
+.noticia-caja > .media-left{
+    padding: 15px 20px;
+}
+.nota-text{
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+.nota-dato{
+	font-size: 12px;
+	margin: 0;
+}
+
+
+footer{
+	padding: 35px 0;
+	background-color: #111;
+	color: #999;
+	font-size: 12px;
+}
