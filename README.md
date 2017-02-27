@@ -1,2 +1,2 @@
-# globe
+# GLOBE
 Website
